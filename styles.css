@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    touch-action: manipulation;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: white;
+    background: -webkit-linear-gradient(pink,blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    margin-bottom: 1%;
+}
+hr{
+    width: 70%;
+    margin-bottom: 2%;
+    border-radius: 90%;
+    background-color: pink;
+    color: pink;
+}
+h4{
+    margin-top: 3%;
+    color: darkorange;
+}
+a{
+  color: darkorange;
+  text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.answersContainer{
+    display: flex;
+    flex-direction: row;
+    position:relative; top:400px; left: 650px; margin-left:0px; margin-right:0px;
+    font-size: 30px;
+    word-spacing: 100px;
+}
+#od1{
+    position:absolute;
+    left: 7px;
+}
+#od2{
+    position:absolute;
+    left: 200px;
+}
+#od3{
+    position:absolute;
+    left: 385px;
+}
+#od4{
+    position:absolute;
+    left: 560px;
+}
+.options{
+    position:absolute;
+    top: 450px;
+    left: 1450px;
+}
+#next{
+    position:absolute;
+    top: 500px;
+    left: 1600px;
+}
