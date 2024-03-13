@@ -41,26 +41,40 @@ a:hover{
 #od1{
     position:absolute;
     left: 7px;
+    font-family: fantasy;
 }
 #od2{
     position:absolute;
     left: 200px;
+    font-family: fantasy;
 }
 #od3{
     position:absolute;
     left: 385px;
+    font-family: fantasy;
 }
 #od4{
     position:absolute;
     left: 560px;
+    font-family: fantasy;
 }
 .options{
+    font-size: 40px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     position:absolute;
+    
     top: 450px;
     left: 1450px;
+    font-family: fantasy;
+   
+    
 }
 #next{
+    background-color: #04AA6D; /* Green */
     position:absolute;
-    top: 500px;
-    left: 1600px;
+    left: 1250px;
+    top: 180px;
+    font-size: 20px;
 }
